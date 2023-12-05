@@ -14,12 +14,7 @@ const relogio = setInterval(function time(){
      if(seg < 10 ) seg = '0' + seg
 
 
-    horas.textContent = hr
+    horas.textContent = hr;
     minutos.textContent = min;
     segundos.textContent = seg;
-
-    horas.style.fontSize = '60px'
-    horas.style.fontWeight = 'bolder'
-
-
 })
